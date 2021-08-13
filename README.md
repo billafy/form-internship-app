@@ -1,4 +1,4 @@
-# https://pcp-form.vercel.app
+# https://form-internship-app.vercel.app/personal-details
 
 A simple React form consisting of 3 screens
 

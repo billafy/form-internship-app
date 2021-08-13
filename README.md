@@ -1,9 +1,14 @@
 # https://pcp-form.vercel.app
 
 A simple React form consisting of 3 screens
-	1. Personal Details 
-	2. Contact Information 
+
+	1. Personal Details
+
+	2. Contact Information
+
 	3. Profile Picture
+
+	
 
 After submitting the form, the profile of the user will be displayed.
 

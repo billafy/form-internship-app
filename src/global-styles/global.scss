@@ -1,0 +1,39 @@
+* {
+	font-family: Fresca, sans-serif;
+	box-sizing: border-box;
+}
+html,
+body {
+	margin: 0;
+	font-size: 18px;
+}
+body {
+	background: url("https://wallpaperaccess.com/full/1567665.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+input,
+select,
+textarea,
+button,
+a {
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+h1 {
+	margin: 0px;
+}
+@media (min-width: 468px) and (max-width: 967px) {
+	html {
+		font-size: 16px;
+	}
+}
+@media (min-width: 0px) and (max-width: 467px) {
+	html {
+		font-size: 14px;
+	}
+}

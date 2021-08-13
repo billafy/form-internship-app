@@ -1,0 +1,51 @@
+@import "../../global-styles/colors.scss";
+
+.form-container {
+	.profile-picture {
+		width: 150px;
+		height: 150px;
+		max-width: 100%;
+		border: 2px solid $text;
+		margin: 0px auto 2rem auto;
+		border-radius: 50%;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		img {
+			height: 100%;
+		}
+	}
+	.upload-profile-picture {
+		width: 135px;
+		max-width: 90%;
+		margin: auto;
+		background: $primary;
+		height: 35px;
+		border-radius: 9999px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $text;
+		transition: 0.1s all linear;
+		&:hover {
+			transform: scale(1.1);
+		}
+		input {
+			display: none;
+		}
+	}
+	.submit {
+		background: transparent;
+		font-size: 1.7rem;
+		border: 0px;
+		color: $primary;
+		width: 120px;
+		height: 35px;
+		border-radius: 9999px;
+		transition: all 0.1s linear;
+		text-align: center;
+		display: block;
+		margin: 2rem auto 0px auto;
+	}
+}
